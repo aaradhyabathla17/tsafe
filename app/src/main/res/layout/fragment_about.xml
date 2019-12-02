@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.aboutFragment"
+    android:background="@drawable/custom_bg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_applogo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/logomadeforapp1" />
+
+        <TextView
+            android:id="@+id/appname_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_applogo"
+            android:layout_centerHorizontal="true"
+            android:text="T SAFE - Travel Safe"
+            android:textColor="@color/colour_blue_text"
+            android:textSize="30sp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/appname_tv"
+            android:layout_marginTop="61dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+              >
+
+                <TextView
+                    android:id="@+id/about_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="No one has the time to dial an emergency number when they are in danger. The T-SAFE App lets a potential victim skip through the number-punching, and lets you push an emergency button to instantly send an alert to contacts as well as nearby Police Station.The listed contacts will receive a danger message along with your current physical location which will get updated each time the message goes out. On top of that,the app can connect you to the proper authorities in case of an emergency.It is a multipurpose app to stay in touch with your family members and friends and keep a handle on their location. The app lets you create circles, add people to them and see their locations on a confidential map. This way you’ll be able to always keep track of your family members and confirm that they’re safe and sound. You can share your location with them, or send an alert to your circle members."
+                    android:textSize="20dp" />
+        </RelativeLayout>
+    </ScrollView>
+   </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.SettingsFragment"
+    android:background="@drawable/custom_bg"
+    android:orientation="vertical"
+    android:padding="30dp">
+   <Button
+       android:layout_marginTop="30dp"
+       android:id="@+id/btn_change_password"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@drawable/rounded_corner_white_bg_button"
+       android:text="Change Password"
+       android:textColor="@color/colour_blue_text"
+       android:textSize="30sp"
+       android:elevation="10dp"/>
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/btn_delete_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colour_blue_text"
+        android:background="@drawable/rounded_corner_white_bg_button"
+        android:text="Edit Profile"
+        android:textSize="30sp"
+        android:elevation="10dp"/>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:elevation="10dp"
+        android:textColor="@color/colour_blue_text"
+        android:id="@+id/btn_edit_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corner_white_bg_button"
+        android:text="Delete Account"
+        android:textSize="30sp"/>
+
+
+
+
+
+</LinearLayout>

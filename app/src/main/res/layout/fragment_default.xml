@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_bg"
+    tools:context=".fragment.DefaultFragment">
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <Button
+        android:id="@+id/btn_stopride"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corner_white_bg_button"
+        android:text="Stop Ride"
+        android:layout_above="@+id/btn_NewRide"
+        android:textColor="@color/colour_blue_text"
+        android:textSize="22sp"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/btn_NewRide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/rounded_corner_white_bg_button"
+        android:text="Start New Ride"
+        android:textColor="@color/colour_blue_text"
+        android:textSize="22sp"
+        android:layout_margin="10dp"/>
+
+</RelativeLayout>

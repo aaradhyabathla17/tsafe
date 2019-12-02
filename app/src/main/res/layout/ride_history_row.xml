@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DATE"
+        android:textSize="30sp"
+        android:layout_gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/start_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Starting Time"
+                android:layout_gravity="center"
+                android:textSize="25sp"
+                />
+            <TextView
+                android:id="@+id/reach_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reaching Time"
+                android:textSize="25sp"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/initial_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Intial Loc."
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:id="@+id/final_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Final Destination"
+                android:textSize="25sp"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

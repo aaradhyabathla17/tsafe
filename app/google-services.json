@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "9133858821",
+    "firebase_url": "https://t-safe-250905.firebaseio.com",
+    "project_id": "t-safe-250905",
+    "storage_bucket": "t-safe-250905.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9133858821:android:f43695cc723392432c7c6c",
+        "android_client_info": {
+          "package_name": "com.techespo.tsafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "9133858821-57sogp2l5t6ih8rfh8a8as8h788b7n0f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techespo.tsafe",
+            "certificate_hash": "055acc5d3757713693431959fad4f52cb726cde3"
+          }
+        },
+        {
+          "client_id": "9133858821-5uunsh4mm5r5hn2mkn11d0aseasv3rj4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXRrxB_iTevMdwpBBMYI5g9tFsyeV6QHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "9133858821-5uunsh4mm5r5hn2mkn11d0aseasv3rj4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

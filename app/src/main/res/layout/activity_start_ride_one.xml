@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/custom_bg"
+        android:orientation="vertical"
+        android:padding="15dp"
+        tools:context=".StartRideActivityOne">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Start new ride"
+            android:textSize="28sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_corner_white_bg_button">
+
+            <EditText
+                android:enabled="true"
+                android:id="@+id/source_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/id_img_from_location"
+                android:background="@color/color_transparent"
+                android:elevation="10dp"
+                android:gravity="center"
+                android:hint="Source Location"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/id_img_from_location"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                app:srcCompat="@drawable/ic_location" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_corner_white_bg_button">
+
+            <EditText
+                android:enabled="true"
+                android:id="@+id/destination"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/id_img_to_location"
+                android:background="@color/color_transparent"
+                android:elevation="10dp"
+                android:gravity="center"
+                android:hint="Destination Destination"
+                android:inputType="text"
+                android:padding="10dp" />
+
+            <ImageView
+                android:id="@+id/id_img_to_location"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                app:srcCompat="@drawable/ic_location" />
+
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/vehicle_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/final_destination"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_corner_white_bg_button"
+            android:elevation="10dp"
+            android:gravity="center"
+            android:hint="Vehicle Type"
+            android:inputType="text"
+            android:padding="10dp" />
+
+        <EditText
+                android:id="@+id/vehicle_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vehicle_type"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_corner_white_bg_button"
+            android:elevation="10dp"
+            android:gravity="center"
+            android:hint="Vehicle Number"
+            android:padding="10dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_corner_white_bg_button">
+
+            <TextView
+                android:id="@+id/contact1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/id_img_contact_one"
+                android:background="@color/colour_white"
+                android:elevation="10dp"
+                android:gravity="center"
+                android:layout_margin="3dp"
+                android:hint="Contact Number 1"
+                android:padding="10dp" />
+
+            <ImageView
+                android:id="@+id/id_img_contact_one"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                app:srcCompat="@drawable/ic_conatact" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_corner_white_bg_button">
+
+            <TextView
+                android:id="@+id/contact2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/id_img_contact_two"
+                android:background="@color/colour_white"
+                android:elevation="10dp"
+                android:gravity="center"
+                android:layout_margin="3dp"
+                android:hint="Contact Number 2"
+                android:padding="10dp" />
+
+            <ImageView
+                android:id="@+id/id_img_contact_two"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                app:srcCompat="@drawable/ic_conatact" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_img_one"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="capture" />
+
+                <ImageView
+                    android:id="@+id/img_one"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_img_two"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="capture" />
+
+                <ImageView
+                    android:id="@+id/img_two"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/contact2"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_corner_white_bg_button"
+            android:elevation="10dp"
+            android:text="START"
+            android:textColor="@color/colour_blue_text" />
+
+    </LinearLayout>
+</ScrollView>

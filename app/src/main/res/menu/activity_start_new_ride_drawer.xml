@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_account_24dp"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_history"
+            android:title="History" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_aboutdp"
+            android:title="About" />
+    </group>
+    <item android:title="Helplines">
+        <menu>
+            <item
+                android:id="@+id/nav_women"
+                android:icon="@drawable/ic_face_black_24dp"
+                android:title="Women Helpline" />
+            <item
+                android:id="@+id/nav_Police"
+                android:icon="@drawable/ic_local_police24dp"
+                android:title="Police" />
+            <item android:id="@+id/nav_ambulance"
+                android:icon="@drawable/ic_local_hospital_black_24dp"
+                android:title="Ambulance"/>
+            <item android:id="@+id/nav_Emergency"
+                android:icon="@drawable/ic_add_alert_24dp"
+                android:title="Emergency"/>
+        </menu>
+    </item>
+    <item android:title="Support">
+        <group>
+            <item android:id="@+id/nav_contactUs"
+                android:icon="@drawable/ic_call"
+                android:title="Contact Us"/>
+            <item android:id="@+id/nav_Settings"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="Settings"/>
+            <item android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout_24dp"
+                android:title="Log Out"/>
+        </group>
+    </item>
+</menu>
